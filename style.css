@@ -55,3 +55,13 @@ body {
   color: var(--slate-500);
   font-weight: 400;
 }
+
+/* Mobile view */
+
+@media screen and (max-width: 375px) {
+  .card {
+    background-color: white;
+    min-width: 320px;
+    min-height: 500px;
+  }
+}
